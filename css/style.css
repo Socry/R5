@@ -179,7 +179,7 @@ body #body #form #inputContain input {
   width: 98%;
   height: 100%;
   border-style: solid;
-  border-color: #5aca66;
+  border-color: #22c3aa;
   border-width: 1px;
   background-color: rgba(255, 255, 255, 0.54);
   padding: 2px 5px;
@@ -214,7 +214,7 @@ html #ripple text,
 body #ripple text {
   margin-top: 20px;
   text-align: center;
-  color: #5aca66;
+  color: #22c3aa;
   font-size: 16px;
 }
 html #ripple .ripple,
