@@ -120,7 +120,7 @@ html #body #mask,
 body #body #mask {
   height: 70px;
   width: 100%;
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #f0f0f0, #f0f0f0, #f0f0f0);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #E8F9F6, #E8F9F6, #E8F9F6);
   position: fixed;
   bottom: 0;
   z-index: 4;
@@ -201,41 +201,7 @@ body #body #form #sendButton div {
   font-size: 15px;
   border-radius: 4px;
 }
-html #ripple,
-body #ripple {
-  width: 100%;
-  height: 100px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: -webkit-linear-gradient(top, rgba(90, 202, 102, 0.41), rgba(255, 255, 255, 0));
-}
-html #ripple text,
-body #ripple text {
-  margin-top: 20px;
-  text-align: center;
-  color: #22c3aa;
-  font-size: 16px;
-}
-html #ripple .ripple,
-body #ripple .ripple {
-  width: 100%;
-  height: 100px;
-  position: fixed;
-  /*background-color: rgba(85, 85, 85, 0.53);*/
-  background-image: url(http://sandbox.runjs.cn/uploads/rs/253/yalxry4o/ripple.png);
-  background-repeat: no-repeat;
-  top: 10px;
-  left: 0;
-}
-html #ripple #ripple1,
-body #ripple #ripple1 {
-  -webkit-animation: ripple1 2s linear infinite alternate forwards;
-}
-html #ripple #ripple2,
-body #ripple #ripple2 {
-  -webkit-animation: ripple2 3s linear infinite alternate forwards;
-}
+
 @media (min-width: 640px) {
   #body {
     border: 1px solid #e1e1e1;
@@ -261,31 +227,5 @@ body #ripple #ripple2 {
   to {
     -webkit-transform: translate(0, 0);
     opacity: 1;
-  }
-}
-@-webkit-keyframes ripple1 {
-  0% {
-    background-position: 100% 0px;
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    background-position: 0% 0px;
-    opacity: 0;
-  }
-}
-@-webkit-keyframes ripple2 {
-  0% {
-    background-position: 100% 0px;
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    background-position: 0% 0px;
-    opacity: 0;
   }
 }
