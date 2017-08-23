@@ -13,7 +13,7 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  background-color: #E8F9F6;
+  background-color: #9BE4D8;
 }
 html #body,
 body #body {
@@ -120,7 +120,7 @@ html #body #mask,
 body #body #mask {
   height: 70px;
   width: 100%;
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #f0f0f0, #f0f0f0, #f0f0f0);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #E8F9F6, #E8F9F6, #E8F9F6);
   position: fixed;
   bottom: 0;
   z-index: 4;
