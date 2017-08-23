@@ -120,7 +120,7 @@ html #body #mask,
 body #body #mask {
   height: 70px;
   width: 100%;
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), #E8F9F6, #E8F9F6, #E8F9F6);
+  background: -webkit-linear-gradient(20deg, #3FD1E1 0%, #44D7CD 100%);
   position: fixed;
   bottom: 0;
   z-index: 4;
