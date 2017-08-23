@@ -153,8 +153,8 @@ body #body #mind ol li {
 }
 html #body #mind ol li:hover,
 body #body #mind ol li:hover {
-  background-color: #20eece;
-  color: #B5B5B5;
+  background-color: #c1c1c1;
+  color: #c1c1c1;
 }
 html #body #form,
 body #body #form {
@@ -179,7 +179,7 @@ body #body #form #inputContain input {
   width: 98%;
   height: 100%;
   border-style: solid;
-  border-color: #B5B5B5;
+  border-color: #c1c1c1;
   border-width: 1px;
   background-color: rgba(255, 255, 255, 0.54);
   padding: 2px 5px;
@@ -194,7 +194,7 @@ html #body #form #sendButton div,
 body #body #form #sendButton div {
   width: 60px;
   height: 100%;
-  background-color: #B5B5B5;
+  background-color: #c1c1c1;
   line-height: 35px;
   color: rgba(255, 255, 255, 0.72);
   text-align: center;
