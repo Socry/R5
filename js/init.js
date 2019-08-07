@@ -61,7 +61,7 @@ function cellback(val) {
         loc: "浙江"
     };
     $.ajax({
-        url: "http://openapi.tuling123.com/openapi/api/v2",
+        url: "http://www.tuling123.com/openapi/api",
         data: sData,
         type: "POST",
         success: function (data) {
